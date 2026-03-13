@@ -44,16 +44,3 @@ Untuk menjaga ukuran repositori agar tetap ringan dan menghindari konflik, **DIL
 3. **`.idea/`**
 4. **`*.iml`**
 5. **`local.properties`** (berisi path SDK personal).
-
-### Cara Menghindari:
-
-Pastikan di dalam *root* repositori ini sudah terdapat file `.gitignore`. Jika belum, segera tambahkan sebelum melakukan `git commit`. Semua folder yang disebutkan di atas secara otomatis akan diabaikan oleh Git.
-
----
-
-*Gunakan branch masing-masing sebelum melakukan merge ke branch utama (main/master) jika diperlukan.*
-
-```
-
-### Tips Tambahan untuk Kamu:
-Agar teman-temanmu tidak lupa, kamu bisa membuat satu file bernama `.gitignore` di folder utama repositori. Kamu bisa mengambil template `.gitignore` standar untuk Android [di sini](https://github.com/github/gitignore/blob/main/Android.gitignore). Dengan adanya file itu, meskipun mereka mencoba *push* folder `build`, Git akan otomatis menolaknya.
